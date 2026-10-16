@@ -1,0 +1,9 @@
+.features-list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.features-item {
+  width: calc((100% - 72px) / 4);
+}

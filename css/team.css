@@ -1,0 +1,20 @@
+.team {
+  background: #f4f4fd;
+}
+
+.team-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+
+}
+
+.team-item {
+  background-color: #fff;
+  width: calc((100% - 72px) / 4);border-radius: 0 0 4px 4px;
+}
+
+.team-subtitle,
+.team-text {
+  text-align: center;
+}
